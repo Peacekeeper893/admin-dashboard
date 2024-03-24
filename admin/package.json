@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "http://Peacekeeper893.github.io/admin-dashboard",
   "dependencies": {
     "@clerk/clerk-react": "^4.30.7",
     "axios": "^1.6.7",
